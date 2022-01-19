@@ -29,7 +29,7 @@ extension MIDI.IO {
         // class-specific
         
         public private(set) var inputsCriteria: [MIDI.IO.EndpointIDCriteria<MIDI.IO.InputEndpoint>]
-        internal var coreMIDIInputEndpointRefs: [MIDI.IO.CoreMIDIEndpointRef?] = []
+        public var coreMIDIInputEndpointRefs: [MIDI.IO.CoreMIDIEndpointRef?] = []
         
         // init
         
