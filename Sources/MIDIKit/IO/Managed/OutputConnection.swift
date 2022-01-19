@@ -24,7 +24,7 @@ extension MIDI.IO {
         public var midiProtocol: MIDI.IO.ProtocolVersion { api.midiProtocol }
         
         // _MIDIIOSendsMIDIMessagesProtocol
-        internal var coreMIDIOutputPortRef: MIDI.IO.CoreMIDIPortRef? = nil
+        public var coreMIDIOutputPortRef: MIDI.IO.CoreMIDIPortRef? = nil
         
         // class-specific
         
